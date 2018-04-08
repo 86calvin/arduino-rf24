@@ -3,7 +3,7 @@ description: Arduino RF24 library
 type: lib
 version: 1.0
 
-platforms: [ esp8266 ]
+platforms: [ esp32 ]
 
 sources:
   - src
@@ -13,7 +13,7 @@ libs:
   - origin: https://github.com/eduardb/arduino-spi
 
 cdefs:
-  ARDUINO_ARCH_ESP8266: 1
+  ARDUINO_ARCH_ESP32: 1
 
 tags:
   - arduino
